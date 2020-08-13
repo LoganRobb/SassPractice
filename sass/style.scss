@@ -1,4 +1,7 @@
-@import 'variable';
+@import 'variable' ;
+@import 'mixins' ;
+@import 'images' ;
+@import 'list' ;
 
 *{
   margin-left: 10px;
@@ -7,21 +10,21 @@ body {
   background-color: $back-color;
 }
 
-@mixin dimension($w,$h, $ls){
-  width: $w;
-  height: $h;
-  letter-spacing: $ls;
-}
-@mixin myPara($w,$h,){
-  width: $w;
-  height: $h;
-}
 
 button {
   @include dimension(100px, 50px, 2px);
+  @extend myColors;
 }
 
 p {
   @include myPara(400px, 300px);
   color: $color;
+  margin: $margin;
+}
+
+//inheritance
+
+myColors{
+  background: $back-color;
+  color : $color;
 }

@@ -1,0 +1,15 @@
+myImage{
+  width: 300px;
+  height: auto;
+  margin: 25px;
+}
+
+.blueImg{
+  @extend myImage;
+  border: 5px solid $back-color;
+
+}
+.blueImg:hover{
+  padding: 20px;
+
+}

@@ -1,3 +1,31 @@
+myImage, .blueImg {
+  width: 300px;
+  height: auto;
+  margin: 25px; }
+
+.blueImg {
+  border: 5px solid lightblue; }
+
+.blueImg:hover {
+  padding: 20px; }
+
+nav {
+  background-color: orange;
+  height: 100px; }
+
+nav ul {
+  margin: 40px auto;
+  border: 1px solid red;
+  height: 40px;
+  padding: 40px; }
+
+nav ul li {
+  padding: 10px;
+  list-style: none;
+  display: inline;
+  margin: 40px 5%;
+  background: lightblue; }
+
 * {
   margin-left: 10px; }
 
@@ -12,6 +40,11 @@ button {
 p {
   width: 400px;
   height: 300px;
+  color: yellow;
+  margin: 50px; }
+
+myColors, button {
+  background: lightblue;
   color: yellow; }
 
 /*# sourceMappingURL=style.css.map */

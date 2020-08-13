@@ -1,0 +1,9 @@
+@mixin dimension($w,$h, $ls){
+  width: $w;
+  height: $h;
+  letter-spacing: $ls;
+}
+@mixin myPara($w,$h,){
+  width: $w;
+  height: $h;
+}
